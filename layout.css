@@ -1,5 +1,6 @@
 /*!
 * by songxiaoyu 2018-?
+* https://github.com/luckyRogue/my_css
 * under MIT license
 */
 
@@ -69,6 +70,7 @@
     /* 伪元素插入空格文本 */
     content: '\3000';
 }
+
 .c666 {
     color: #666;
 }
@@ -149,6 +151,10 @@
     margin-bottom: 64px;
 }
 
+.mb70 {
+    margin-bottom: 70px;
+}
+
 .mb100 {
     margin-bottom: 100px;
 }
@@ -177,6 +183,10 @@
     padding-top: 60px;
 }
 
+.pt80 {
+    padding-top: 80px;
+}
+
 .pb20 {
     padding-bottom: 20px;
 }
@@ -191,6 +201,10 @@
 
 .pb80 {
     padding-bottom: 80px;
+}
+
+.pl15 {
+    padding-left: 15px;
 }
 
 .pl20 {
@@ -231,6 +245,10 @@
 
 .ml50 {
     margin-left: 50px;
+}
+
+.ml60 {
+    margin-left: 60px;
 }
 
 .ml70 {
@@ -277,6 +295,10 @@
     margin-top: 15px;
 }
 
+.mt17 {
+    margin-top: 17px;
+}
+
 .mt20 {
     margin-top: 20px;
 }
@@ -291,6 +313,10 @@
 
 .mt35 {
     margin-top: 35px;
+}
+
+.mt36 {
+    margin-top: 36px;
 }
 
 .mt40 {
@@ -321,18 +347,6 @@
     margin-top: 60px;
 }
 
-.mt80 {
-    margin-top: 80px;
-}
-
-.mt120 {
-    margin-top: 120px;
-}
-
-.mt60 {
-    margin-top: 60px;
-}
-
 .mt64 {
     margin-top: 64px;
 }
@@ -347,6 +361,10 @@
 
 .mt100 {
     margin-top: 100px;
+}
+
+.mt120 {
+    margin-top: 120px;
 }
 
 /* font-size */
@@ -453,8 +471,16 @@
     line-height: 35px;
 }
 
+.lh36 {
+    line-height: 36px;
+}
+
 .lh38 {
     line-height: 38px;
+}
+
+.lh42 {
+    line-height: 42px;
 }
 
 .lh50 {
@@ -495,6 +521,46 @@
     border-radius: 5px;
 }
 
+.br8 {
+    border-radius: 8px;
+}
+
 .br10 {
     border-radius: 10px;
+}
+
+.db {
+    display: block;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.df {
+    display: flex;
+}
+
+.fw {
+    flex-wrap: wrap;
+}
+
+.jc {
+    justify-content: center;
+}
+
+.sb {
+    justify-content: space-between;
+}
+
+.aic {
+    align-items: center;
+}
+
+.pr {
+    position: relative;
+}
+
+.circle {
+    border-radius: 50%;
 }
