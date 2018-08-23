@@ -486,8 +486,8 @@
 .lh50 {
     line-height: 50px;
 }
-
-.four-oh {
+/* 超出省略号 */
+.clamp4 {
     text-overflow: -o-ellipsis-lastline;
     display: -webkit-box;
     -webkit-line-clamp: 4;
@@ -495,7 +495,7 @@
     overflow: hidden;
 }
 
-.t-oh {
+.clamp3 {
     text-overflow: -o-ellipsis-lastline;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -503,7 +503,7 @@
     overflow: hidden;
 }
 
-.s-oh {
+.clamp2 {
     text-overflow: -o-ellipsis-lastline;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -511,7 +511,7 @@
     overflow: hidden;
 }
 
-.f-oh {
+.clamp1 {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
