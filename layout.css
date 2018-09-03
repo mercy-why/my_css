@@ -215,8 +215,16 @@
     margin-left: 5px;
 }
 
+.ml8 {
+    margin-left: 8px;
+}
+
 .ml10 {
     margin-left: 10px;
+}
+
+.ml12 {
+    margin-left: 12px;
 }
 
 .ml15 {
@@ -267,12 +275,20 @@
     margin-right: 20px;
 }
 
+.mr24 {
+    margin-right: 24px;
+}
+
 .mr30 {
     margin-right: 30px;
 }
 
 .mr40 {
     margin-right: 40px;
+}
+
+.mt2 {
+    margin-top: 2px;
 }
 
 .mt5 {
@@ -295,12 +311,20 @@
     margin-top: 15px;
 }
 
+.mt16 {
+    margin-top: 16px;
+}
+
 .mt17 {
     margin-top: 17px;
 }
 
 .mt20 {
     margin-top: 20px;
+}
+
+.mt24 {
+    margin-top: 24px;
 }
 
 .mt25 {
@@ -486,7 +510,9 @@
 .lh50 {
     line-height: 50px;
 }
+
 /* 超出省略号 */
+
 .clamp4 {
     text-overflow: -o-ellipsis-lastline;
     display: -webkit-box;
@@ -563,4 +589,7 @@
 
 .circle {
     border-radius: 50%;
+}
+.wp{
+  flex-wrap: wrap;
 }
