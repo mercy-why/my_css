@@ -6,7 +6,7 @@
 
 body {
     font-size: 14px;
-    font-family: "Hiragino Sans GB", "STHeiti", "Microsoft Yahei", "PingFangSC";
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
     color: #4A4A4A;
 }
 
@@ -16,6 +16,15 @@ select {
     font-size: 100%;
     font-family: inherit;
     border: none;
+}
+
+textarea {
+    resize: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 body,
@@ -69,9 +78,11 @@ button {
     outline: none;
     border: none;
 }
-input:focus{
+
+input:focus {
     outline: none;
 }
+
 /* * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
